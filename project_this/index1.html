@@ -1,0 +1,154 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HappyDent</title>
+    <link rel="icon" href="https://icons-for-free.com/iconfiles/png/512/dentist+dentistry+medical+oral+hygiene+search+tooth+icon-1320165692437854440.png">
+     <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+    <script src="https://kit.fontawesome.com/0a14c826e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- whatsapp -->
+  <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+    <!--navegacion-->
+  <ul class= "intro">
+      <font size = "2" color= "sky blue" >HORARIO:</font>&nbsp;<font size = "2">LUNES A VIERNES: 9AM A 6PM/ SABADOS - 9AM A 1PM </font>&nbsp;<font size = "2" color= "sky blue">CONTACTENOS:</font> <font size = "3">&nbsp;+51 995 950 460 &nbsp; &nbsp;</font> <button href ="#" id="buttonlog">LOGIN</button>          
+  </ul>
+  <hr color= #DAD5D4 size= "1">
+<!--popup  -->
+<div class="popup">
+  <div class="popup-content">
+    <img src="https://www.freeiconspng.com/thumbs/close-icon/black-close-icon-3.png" alt="close" class="close">
+    <img src="https://cdn0.iconfinder.com/data/icons/dentist-element-1/64/Clear-tooth-teeth-dentist-dental-tool-512.png" style="width: 50px; height: 50px;" alt="logo">
+    <input type="text" placeholder="Usuario">
+    <input type="password" placeholder="Contraseña">
+    <a href="#" class="buttonlog" >Login</a>
+  </div>
+</div>
+<script>
+  document.getElementById("buttonlog").addEventListener("click",function(){
+    document.querySelector(".popup").style.display="flex";
+  })
+  document.querySelector(".close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display="none";
+  })
+</script>
+<!-- logo-banner -->
+
+
+<!--Menu Alfredo - jairo me la pelas tu tambien almora -->
+<div class="menu-area">
+  <ul>
+      <li class="home"><i class="fa fa-home fa-1x" ></i>&nbsp;Inicio</li>
+      <li><i class="fa fa-flag fa-fw"></i>&nbsp;Nosotros
+              <ul class="dropdown">
+                  <li> <a href="reconocimientos.html" style="color: white;"> Reconocimientos</a> </li>
+                  <li> <a href="MIsion-Vision.html" style="color: white;">Misión y Visión</a> </li>
+              </ul>
+      </li>
+      <li id="nav-list"><i class="fa fa-stethoscope fa-fw"></i>&nbsp;Servicios
+              <ul class="dropdown">
+                  <li> <a href="24.html" style="color: white;">Emergencias 24h</a> </li>
+                  <li> <a href="plan.html" style="color: white;">Plan Dental</a></li>
+              </ul>
+      </li>
+      <li id="nav-list"><i class="fa fa-star fa-fw"></i>&nbsp; <a href="especialidades.html">Especialidades</a> </li>
+      <li id="nav-list"><i class="fa fa-map-marker fa-fw"></i>&nbsp; <a href="sedes.html">Sedes</a> </li>
+      <li id="nav-list"><i class="fa fa-file-text fa-fw"></i>&nbsp; <a href="blog.html">Blog</a> </li>
+      <li id="nav-list"><i class="fa fa-calendar fa-fw"></i>&nbsp;<a href="cita_linea.html">Cita en Línea</a></li>
+      
+  </ul>   
+</div> 
+<br>
+<br>
+  
+
+    <!--Slider-imagenes-->
+
+    <div id="slider">
+        <div id="topslider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#topslider" data-slide-to="0" class="active"></li>
+              <li data-target="#topslider" data-slide-to="1"></li>
+              <li data-target="#topslider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" style="width:1800px; height:800px" src="https://alveodental.com/wp-content/uploads/2020/07/Dental-Clinic02-1536x1025.jpg">
+                  <div class="carousel-caption">
+                        <!-- <h5>Titulo 1</h5> -->
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" style="width:1800px; height:800px" src="https://odontologiaespecializadasevilla.com/wp-content/uploads/2018/07/dentista-sevilla.jpg">
+                <div class="carousel-caption">
+                  <!-- <h5>Titulo 2</h5> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" style="width:1800px; height:800px" src="https://www.drmariochalhoub.com/wp-content/uploads/2018/07/happy-smile-family-dental-clinic-7-1179x800-1024x695.jpg">
+                <div class="carousel-caption">
+                  <!-- <h5>Titulo 3</h5> -->
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#topslider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#topslider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <!--Informacion General-->
+    <div class="infogeneral">
+      <div class="infoind">
+          <img src="https://www.flaticon.es/svg/static/icons/svg/3439/3439226.svg" alt="">
+          <h3>Happy dent Su clínica Dental de confianza</h3>
+          <p> Miles de sonrisas alrededor del Perú nos respaldan como la primera y mejor Clínica Dental del pais. ¡Compruébalo tu mismo!</p>
+          <p class="reserva">¡RESERVA TU CITA EN LINEA!</p>
+          <a href=""></a>
+      </div>
+      <div class="infoind">
+          <img src="https://www.flaticon.es/svg/static/icons/svg/3439/3439298.svg" alt="">
+          <h3>Conoce algunas de nuestras Especialidades.</h3>
+          <p>Cada uno de nuestros Odontólogos destaca en su especialidad, porque para nosotros es importante brindarte calidez humana junto con tecnología de punta.</p>
+          <a href=""></a>
+      </div>
+      <div class="infoind">
+          <img src="https://www.flaticon.es/svg/static/icons/svg/3439/3439545.svg" alt="">
+          <h3>Atención las 24 hr del día</h3>
+          <p>Llámanos al (01) 441-3000 y visítanos en Av. Arequipa 4105, Miraflores a toda hora, todos los días.</p>
+          <a href=""></a>
+      </div>
+      <div class="infoind">
+          <img src="https://www.flaticon.es/svg/static/icons/svg/3439/3439811.svg" alt="">
+          <h3>Aplicamos todos los protoclos de bioseguridad.</h3>
+          <p>Viva una experiencia completamente distinta en instalaciones de primera. Un ambiente con el standard más de alto de esterilización y bioseguridad.</p>
+          <a href=""></a>
+      </div>
+    </div>
+    <!-- footer -->
+    <div id="contenedor" color=#00B3E6>
+      <ul class="sociales">
+          <font face =France size="2" color=white >© 2021 Copyright - Todos los Derechos Reservados </font><a href="index1.html" ><font face =France size="2"color=000>HappyDent</font></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="https://www.facebook.com/HappyDent-100783628681829"  target="_blank"><img src ="https://i.ibb.co/s26YQkS/facebook.png"
+                                               width="60" height="60"></a></li>
+                <li><a href="https://www.youtube.com"  target="_blank"><img src ="https://i.ibb.co/m6X9RCW/youtube.png"
+                                               width="60" height="60"></a></li>
+      </ul>
+    </div>
+</body>
+</html>

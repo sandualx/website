@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedes</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://icons-for-free.com/iconfiles/png/512/dentist+dentistry+medical+oral+hygiene+search+tooth+icon-1320165692437854440.png">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+    <script src="https://kit.fontawesome.com/0a14c826e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- whatsapp -->
+  <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+    <!--navegacion-->
+  <ul class= "intro">
+      <font size = "2" color= "sky blue" >HORARIO:</font>&nbsp;<font size = "2">LUNES A VIERNES: 9AM A 6PM/ SABADOS - 9AM A 1PM </font>&nbsp;<font size = "2" color= "sky blue">CONTACTENOS:</font> <font size = "3">&nbsp;+51 995 950 460 &nbsp; &nbsp;</font> <button href ="#" id="buttonlog">LOGIN</button>          
+  </ul>
+  <hr color= #DAD5D4 size= "1">
+<!--popup  -->
+<div class="popup">
+  <div class="popup-content">
+    <img src="https://www.freeiconspng.com/thumbs/close-icon/black-close-icon-3.png" alt="close" class="close">
+    <img src="https://cdn0.iconfinder.com/data/icons/dentist-element-1/64/Clear-tooth-teeth-dentist-dental-tool-512.png" style="width: 50px; height: 50px;" alt="logo">
+    <input type="text" placeholder="Usuario">
+    <input type="password" placeholder="Contraseña">
+    <a href="#" class="buttonlog" >Login</a>
+  </div>
+</div>
+<script>
+  document.getElementById("buttonlog").addEventListener("click",function(){
+    document.querySelector(".popup").style.display="flex";
+  })
+  document.querySelector(".close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display="none";
+  })
+</script>
+<!-- logo-banner -->
+
+
+<!--Menu Alfredo - jairo me la pelas tu tambien almora -->
+<div class="menu-area">
+  <ul>
+      <li class="home"><i class="fa fa-home fa-1x" ></i>&nbsp;<a href="index1.html">Inicio</a></li>
+      <li><i class="fa fa-flag fa-fw"></i>&nbsp;Nosotros
+              <ul class="dropdown">
+                  <li> <a href="reconocimientos.html" style="color: white;"> Reconocimientos</a> </li>
+                  <li> <a href="MIsion-Vision.html" style="color: white;">Misión y Visión</a> </li>
+              </ul>
+      </li>
+      <li id="nav-list"><i class="fa fa-stethoscope fa-fw"></i>&nbsp;Servicios
+              <ul class="dropdown">
+                  <li> <a href="24.html" style="color: white;">Emergencias 24h</a> </li>
+                  <li> <a href="plan.html" style="color: white;">Plan Dental</a></li>
+              </ul>
+      </li>
+      <li id="nav-list"><i class="fa fa-star fa-fw"></i>&nbsp; <a href="especialidades.html">Especialidades</a> </li>
+      <li id="nav-list"><i class="fa fa-map-marker fa-fw"></i>&nbsp; <a href="sedes.html">Sedes</a> </li>
+      <li id="nav-list"><i class="fa fa-file-text fa-fw"></i>&nbsp; <a href="blog.html">Blog</a> </li>
+      <li id="nav-list"><i class="fa fa-calendar fa-fw"></i>&nbsp;<a href="cita_linea.html">Cita en Línea</a></li>
+      
+  </ul>   
+</div> 
+<br>
+<br>
+<div>
+    <img src="https://i.ibb.co/BLPCzq0/22.png" Style="width: 100%" >
+</div>
+<br>
+<div >
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face =France size="5">Sedes</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index1.html" ><font size="1"color=000>HappyDent</font></a>&nbsp;&nbsp;&nbsp;<font size="1">➜</font> &nbsp;&nbsp;&nbsp;<font size="1" color=FF5D5D>Sedes </font> 
+    </p>
+</div>
+<div class="principal__sede">   
+    <div class="contact-in" style="background-color: #00b3e7;">
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.219103012189!2d-75.73146029072775!3d-14.064235251047943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bdc9a25acf%3A0xd202db736e41c7f8!2sHappy%20Dent!5e0!3m2!1ses-419!2spe!4v1611711635196!5m2!1ses-419!2spe" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
+        </div>
+        <div class="contact-form">
+            <h1>Contactanos</h1>
+            <p>Nuestra sede cerca al centro de la ciudad.</p>
+            <p>Visitanos y ten al alcance a los mejores profesionales para tu salud bucal.</p>
+        </div>
+    </div>
+</div>
+
+<!--alfredo3-->
+<div id="contenedor" color=#00B3E6>
+    <ul class="sociales">
+        <font face =France size="2" color=white >© 2021 Copyright - Todos los Derechos Reservados </font><a href="index1.html" ><font face =France size="2"color=000>Multident</font></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="https://www.facebook.com"  target="_blank"><img src ="https://i.ibb.co/s26YQkS/facebook.png"
+                                                 width="60" height="60"></a></li>
+                  <li><a href="https://www.youtube.com"  target="_blank"><img src ="https://i.ibb.co/m6X9RCW/youtube.png"
+                                                 width="60" height="60"></a></li>
+              </ul>
+  
+</div>
+<!--alfredo3-->
+</body>
+</html>
